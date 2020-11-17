@@ -158,7 +158,7 @@ comment:
     admin_label: Admin                      # 可选填
     nesting: 4                              # 可选填
     # Disqus shortname
-    shortname: 'hang333-moe'
+    shortname: 'hang333'
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
