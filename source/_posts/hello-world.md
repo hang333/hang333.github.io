@@ -1,6 +1,7 @@
 ---
 title: Hello World
 date: 2020-11-18 08:00:00
+cover: img/cover/63740442_p0.webp
 ---
 第 N 次开坑， 希望这次持久一些。 测试一下代码高亮。
 预计数分期中后更新 lug-hackergame-2020 的 writeup。
