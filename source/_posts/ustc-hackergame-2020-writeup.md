@@ -1,6 +1,6 @@
 ---
 title: USTC Hackergame 2020 Writeup
-date: 2020-11-21 18:00:00
+date: 2020-11-21 21:00:00
 toc: true
 article:
   highlight:
@@ -759,7 +759,7 @@ if __name__ == "__main__":
         print("Nope")
 ```
 
-易知 $v = x0$ 时 $m0\_ = m0$ 或 $v = x1$ 时 $m1\_ = m1$
+易知 $v = x0$ 时 $m0\\_ = m0$ 或 $v = x1$ 时 $m1\\_ = m1$
 
 ![不经意传输 - 解密消息](/img/post/image-20201121205238853.webp)
 
