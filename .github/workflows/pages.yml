@@ -23,6 +23,8 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install
+      #- name: Install theme dependencies
+      #  run: cd themes/suka && npm install --production
       - name: Build
         run: npm run build
       - name: Deploy

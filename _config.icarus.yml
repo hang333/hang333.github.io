@@ -133,7 +133,7 @@ article:
         # Show copy code button
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
-        fold: unfolded
+        fold: folded
     # Whether to show estimated article reading time
     readtime: true
     # Article licensing block
@@ -141,6 +141,12 @@ article:
         Creative Commons:
             icon: fab fa-creative-commons
             url: 'https://creativecommons.org/'
+        CC BY-NC-SA:
+            icon: fab fa-creative-commons-by
+            url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
+        CC BY-NC-SA 4:
+            icon: fab fa-creative-commons-nc
+            url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
         CC BY-NC-SA 4.0:
             icon: fab fa-creative-commons-sa
             url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
@@ -210,7 +216,7 @@ sidebar:
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -244,7 +250,7 @@ widgets:
             Twitter:
                 icon: fab fa-twitter
                 url: 'https://twitter.com/TheJonathanGoh'
-            Dribbble:
+            Instagram:
                 icon: fab fa-instagram
                 url: 'https://instagram.com/TheJonathanGoh'
             #RSS:
@@ -253,7 +259,7 @@ widgets:
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: toc
         # Whether to show the index of each heading
         index: true
@@ -339,7 +345,7 @@ plugins:
     # https://www.osano.com/cookieconsent/
     cookie_consent:
         # The compliance type. Can be "info", "opt-in", or "opt-out"
-        type: opt-out
+        type: info
         # Theme of the popup. Can be "block", "edgeless", or "classic"
         theme: edgeless
         # Whether the popup should stay static regardless of the page scrolls
